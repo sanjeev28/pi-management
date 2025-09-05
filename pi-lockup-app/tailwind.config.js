@@ -7,8 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Semantic design tokens
+        border: '#e2e8f0',
+        input: '#e2e8f0', 
+        ring: '#3b82f6',
+        background: '#ffffff',
+        foreground: '#0f172a',
         primary: {
+          DEFAULT: '#3b82f6',
+          foreground: '#ffffff',
           50: '#eff6ff',
           100: '#dbeafe',
           200: '#bfdbfe',
@@ -21,6 +27,8 @@ export default {
           900: '#1e3a8a',
         },
         secondary: {
+          DEFAULT: '#f1f5f9',
+          foreground: '#0f172a',
           50: '#f8fafc',
           100: '#f1f5f9',
           200: '#e2e8f0',
@@ -31,6 +39,26 @@ export default {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
+        },
+        destructive: {
+          DEFAULT: '#ef4444',
+          foreground: '#ffffff',
+        },
+        muted: {
+          DEFAULT: '#f1f5f9',
+          foreground: '#64748b',
+        },
+        accent: {
+          DEFAULT: '#f1f5f9',
+          foreground: '#0f172a',
+        },
+        popover: {
+          DEFAULT: '#ffffff',
+          foreground: '#0f172a',
+        },
+        card: {
+          DEFAULT: '#ffffff',
+          foreground: '#0f172a',
         },
         success: {
           50: '#f0fdf4',
@@ -68,7 +96,6 @@ export default {
           800: '#991b1b',
           900: '#7f1d1d',
         },
-        // Pi Network brand colors
         pi: {
           50: '#faf5ff',
           100: '#f3e8ff',
@@ -89,7 +116,7 @@ export default {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'medium': '0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 30px -5px rgba(0, 0, 0, 0.05)',
         'large': '0 10px 50px -12px rgba(0, 0, 0, 0.25)',
-      }
+      },
     },
   },
   plugins: [],
